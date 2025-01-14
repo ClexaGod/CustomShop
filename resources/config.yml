@@ -1,0 +1,74 @@
+messages:
+  # Title of the main menu
+  main_menu_title: "§l§6SHOP"
+  
+  # Subtitle of the main menu
+  main_menu_subtitle: "§7Select a category or search:"
+  
+  # Text and icon for the search option
+  search_option: "§aSearch"
+  search_icon: "textures/ui/magnifyingGlass"
+  
+  # Title of the category menu, %s will be replaced with the category name
+  category_menu_title: "§l§6%s"
+  
+  # Subtitle of the category menu
+  category_menu_subtitle: "§7Select the item you want to buy:"
+  
+  # Text and icon for the go back button
+  back_option: "§cGo Back"
+  back_icon: "textures/ui/arrow_left"
+  
+  # Title of the purchase form, %s will be replaced with the item name
+  purchase_form_title: "§l§6%s"
+  
+  # Info of the purchase form, %s will be replaced with the item name, %d with the price, and %s with the currency
+  purchase_form_info: "§7Item: §f%s\n§7Unit Price: §e%d %s%s"
+  
+  # Quantity selector in the purchase form
+  purchase_form_amount: "§7Amount"
+  
+  # Option to buy items in stack in the purchase form
+  purchase_form_stack_toggle: "§aBuy in Stack"
+  
+  # Title of the purchase confirmation form
+  confirm_purchase_title: "§l§6Purchase Confirmation"
+  
+  # Info of the purchase confirmation form, %s will be replaced with the item name, %d with the quantity, %d with the total price, and %s with the currency
+  confirm_purchase_info: "§7Item: §f%s §7x%d\n§7Total Price: §e%d %s\n\n§7Do you want to buy?"
+  
+  # Options in the purchase confirmation form
+  confirm_purchase_yes: "§aYes, Buy"
+  confirm_purchase_no: "§cNo, Go Back"
+  
+  # Message shown when there are no items in the category
+  no_items_message: "§cThere are no items in this category yet!"
+  
+  # Title of the search results menu
+  search_results_title: "§l§6SEARCH RESULTS"
+  
+  # Subtitle of the search results menu
+  search_results_subtitle: "§7Search results:"
+  
+  # Message shown when no search results are found
+  no_results_message: "§cNo search results found."
+  
+  # Message shown when a purchase is successful, %d will be replaced with the quantity and %s with the item name
+  purchase_success: "§a» Successfully purchased §f%d x %s §a!"
+  
+  # Message shown when the purchase fails due to insufficient funds
+  not_enough_money: "§cPurchase failed. You don't have enough money."
+  
+  # Message shown when the player's inventory is full
+  inventory_full_message: "§cYou don't have enough space in your inventory!"
+  
+  # Label for the item price
+  item_price: "Price"
+  
+  # Label for the currency
+  currency: "Currency"
+  
+  
+  economy:
+  use_bedrockeconomy: true
+  use_economyapi: false

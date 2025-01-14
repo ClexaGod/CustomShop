@@ -1,0 +1,16 @@
+name: Shop
+version: 1.0.0
+main: Shop\Main
+api: 5.0.0
+author: ClexaGod
+
+commands:
+  shop:
+    description: "opens shop menu"
+    usage: "/shop"
+    permission: shop.use
+
+permissions:
+  shop.use:
+    description: "Permission to use the shop command"
+    default: true

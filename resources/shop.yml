@@ -1,0 +1,200 @@
+categories:
+  weapons:
+    name: "Weapons"
+    display_item: "diamond_sword"
+    texture: "textures/items/diamond_sword"
+  armor:
+    name: "Armor"
+    display_item: "diamond_chestplate"
+    texture: "textures/items/diamond_chestplate"
+  tools:
+    name: "Tools"
+    display_item: "diamond_pickaxe"
+    texture: "textures/items/diamond_pickaxe"
+  food:
+    name: "Foods"
+    display_item: "apple"
+    texture: "textures/items/apple"
+  blocks:
+    name: "Blocks"
+    display_item: "stone"
+    texture: "textures/blocks/stone"
+
+items:
+  weapons:
+    - name: "Diamond Sword"
+      item: "diamond_sword"
+      price: 1000
+      texture: "textures/items/diamond_sword"
+    - name: "Netherite Sword"
+      item: "netherite_sword"
+      count: 1
+      price: 2000
+      description: "The strongest sword"
+      texture: "textures/items/netherite_sword"
+    - name: "Golden Sword"
+      item: "golden_sword"
+      price: 500
+      description: "Weak but fast"
+  
+  armor:
+    - name: "Diamond Armor"
+      item: "diamond_chestplate"
+      count: 1
+      price: 1500
+      description: "Durable diamond armor"
+      texture: "textures/items/diamond_chestplate"
+    - name: "Netherite Armor"
+      item: "netherite_chestplate"
+      count: 1
+      price: 3000
+      description: "The most durable armor"
+      texture: "textures/items/netherite_chestplate"
+    - name: "Iron Armor"
+      item: "iron_chestplate"
+      price: 1000
+      description: "Durable and affordable"
+      texture: "textures/items/iron_chestplate"
+
+  tools:
+    - name: "Diamond Pickaxe"
+      item: "diamond_pickaxe"
+      count: 1
+      price: 1200
+      description: "Fast and durable pickaxe"
+      texture: "textures/items/diamond_pickaxe"
+    - name: "Netherite Pickaxe"
+      item: "netherite_pickaxe"
+      count: 1
+      price: 2500
+      description: "The strongest pickaxe"
+      texture: "textures/items/netherite_pickaxe"
+    - name: "Golden Pickaxe"
+      item: "golden_pickaxe"
+      price: 800
+      description: "Fast but fragile"
+      texture: "textures/items/golden_pickaxe"
+    - name: "Diamond Shovel"
+      item: "diamond_shovel"
+      count: 1
+      price: 800
+      description: "For fast digging"
+      texture: "textures/items/diamond_shovel"
+    - name: "Netherite Shovel"
+      item: "netherite_shovel"
+      count: 1
+      price: 1500
+      description: "The strongest shovel"
+      texture: "textures/items/netherite_shovel"
+    - name: "Diamond Axe"
+      item: "diamond_axe"
+      count: 1
+      price: 1500
+      description: "For chopping trees"
+      texture: "textures/items/diamond_axe"
+    - name: "Netherite Axe"
+      item: "netherite_axe"
+      count: 1
+      price: 3000
+      description: "The strongest axe"
+      texture: "textures/items/netherite_axe"
+
+  food:
+    - name: "Apple"
+      item: "apple"
+      count: 1
+      price: 10
+      description: "Restores health"
+      texture: "textures/items/apple"
+    - name: "Golden Apple"
+      item: "golden_apple"
+      count: 1
+      price: 500
+      description: "Grants special powers"
+      texture: "textures/items/golden_apple"
+    - name: "Bread"
+      item: "bread"
+      count: 1
+      price: 20
+      description: "Satisfies hunger"
+      texture: "textures/items/bread"
+    - name: "Cooked Beef"
+      item: "cooked_beef"
+      count: 1
+      price: 30
+      description: "Highly nutritious"
+      texture: "textures/items/cooked_beef"
+    - name: "Cooked Chicken"
+      item: "cooked_chicken"
+      count: 1
+      price: 25
+      description: "A delicious meal"
+      texture: "textures/items/cooked_chicken"
+    - name: "Fish"
+      item: "cooked_fish"
+      count: 1
+      price: 15
+      description: "A healthy option"
+      texture: "textures/items/cooked_fish"
+
+  blocks:
+    - name: "Stone"
+      item: "stone"
+      count: 64
+      price: 100
+      description: "Basic building material"
+      texture: "textures/blocks/stone"
+    - name: "Wood"
+      item: "wood"
+      count: 64
+      price: 80
+      description: "For various constructions"
+      texture: "textures/blocks/wood"
+    - name: "Glass"
+      item: "glass"
+      count: 64
+      price: 120
+      description: "Transparent building material"
+      texture: "textures/blocks/glass"
+    - name: "Iron Block"
+      item: "iron_block"
+      count: 1
+      price: 500
+      description: "Strong and durable"
+      texture: "textures/blocks/iron_block"
+    - name: "Diamond Block"
+      item: "diamond_block"
+      count: 1
+      price: 1000
+      description: "Valuable and rare"
+      texture: "textures/blocks/diamond_block"
+    - name: "Gold Block"
+      item: "gold_block"
+      count: 1
+      price: 800
+      description: "Bright and valuable"
+      texture: "textures/blocks/gold_block"
+    - name: "Netherite Block"
+      item: "netherite_block"
+      count: 1
+      price: 2000
+      description: "The most durable block"
+      texture: "textures/blocks/netherite_block"
+    - name: "Grass Block"
+      item: "grass"
+      count: 64
+      price: 60
+      description: "Natural ground"
+      texture: "textures/blocks/grass"
+    - name: "Dirt Block"
+      item: "dirt"
+      count: 64
+      price: 40
+      description: "Basic building material"
+      texture: "textures/blocks/dirt"
+    - name: "Red Brick"
+      item: "brick"
+      count: 64
+      price: 150
+      description: "Decorative building material"
+      texture: "textures/blocks/brick"
